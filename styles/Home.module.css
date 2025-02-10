@@ -1,0 +1,375 @@
+.container {
+  min-height: 100vh;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+.mainContent {
+  padding: 0;
+  height: 100vh;
+}
+
+.sidebar {
+  background: #1e293b;
+  padding: 2rem;
+  height: 100vh;
+  overflow-y: auto;
+  border-right: 1px solid #334155;
+}
+
+.sidebarContent {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #38bdf8, #818cf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  color: #94a3b8;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.form {
+  margin-top: 2rem;
+}
+
+.label {
+  color: #e2e8f0;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.input {
+  background: #334155;
+  border: 1px solid #475569;
+  color: #e2e8f0;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+}
+
+.input:focus {
+  background: #1e293b;
+  border-color: #38bdf8;
+  box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.2);
+  color: #e2e8f0;
+}
+
+.button {
+  width: 100%;
+  padding: 1rem;
+  background: linear-gradient(135deg, #38bdf8, #818cf8);
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.button:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(56, 189, 248, 0.25);
+}
+
+.button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.mainPanel {
+  padding: 2rem;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.alert {
+  background: #dc2626;
+  border: none;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.reportContainer {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.timeline {
+  position: relative;
+  padding: 2rem 0;
+}
+
+.timelineItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.timelineIcon {
+  width: 48px;
+  height: 48px;
+  background: #38bdf8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.timelineIcon i {
+  color: white;
+  font-size: 1.25rem;
+}
+
+.timelineContent h3 {
+  margin: 0;
+  color: #e2e8f0;
+  font-size: 1.25rem;
+}
+
+.timelineContent p {
+  margin: 0.5rem 0 0;
+  color: #94a3b8;
+}
+
+.progressSection {
+  margin-bottom: 3rem;
+  background: #1e293b;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.progressSection h3 {
+  margin-bottom: 1.5rem;
+  color: #e2e8f0;
+}
+
+.progressContainer {
+  height: 1.5rem;
+}
+
+.progressBar {
+  height: 100%;
+  background-color: #334155;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.progressBar > div {
+  background: linear-gradient(135deg, #38bdf8, #818cf8);
+}
+
+.complianceCards {
+  display: grid;
+  gap: 2rem;
+}
+
+.complianceCard {
+  background: #1e293b;
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.cardHeader {
+  background: #334155;
+  border-bottom: 1px solid #475569;
+  padding: 1.5rem;
+}
+
+.cardHeader h3 {
+  margin: 0;
+  color: #e2e8f0;
+  font-size: 1.25rem;
+}
+
+.stats {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.statLabel {
+  color: #94a3b8;
+  font-size: 0.875rem;
+  margin-bottom: 0.25rem;
+}
+
+.statValue {
+  color: #e2e8f0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.userList,
+.tableList,
+.projectList {
+  display: grid;
+  gap: 1rem;
+}
+
+.userItem,
+.tableItem,
+.projectItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  background: #334155;
+  border-radius: 0.5rem;
+}
+
+.userEmail,
+.tableName,
+.projectName {
+  color: #e2e8f0;
+  font-weight: 500;
+}
+
+.badge {
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  font-weight: 500;
+}
+
+/* Radar Animation */
+.radarContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  background: #1a1f2e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.radar {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background: #141821;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid rgba(46, 213, 115, 0.2);
+}
+
+.radar::before {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent 50%, rgba(46, 213, 115, 0.5) 100%);
+  animation: radarSpin 2s linear infinite;
+  transform-origin: right center;
+}
+
+.radar::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: repeating-conic-gradient(
+    from 0deg,
+    rgba(46, 213, 115, 0.2) 0deg 1deg,
+    transparent 1deg 60deg
+  );
+  border-radius: 50%;
+}
+
+@keyframes radarSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.scanningText {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #2ed573;
+  font-size: 1.2rem;
+  white-space: nowrap;
+}
+
+.securityIcons {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  animation: iconSpin 20s linear infinite;
+}
+
+.securityIcon {
+  position: absolute;
+  padding: 10px 20px;
+  background: rgba(46, 213, 115, 0.1);
+  border: 1px solid rgba(46, 213, 115, 0.3);
+  border-radius: 20px;
+  color: #2ed573;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+@keyframes iconSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* AI Analysis Section */
+.aiAnalysis {
+  background: #1e293b;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-top: 2rem;
+  border: 1px solid #334155;
+}
+
+.aiAnalysis h3 {
+  color: #e2e8f0;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.aiAnalysis pre {
+  background: #334155;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  color: #94a3b8;
+  white-space: pre-wrap;
+  margin-top: 1rem;
+}
+
+.aiAnalysisContent {
+  color: #e2e8f0;
+  line-height: 1.6;
+} 
