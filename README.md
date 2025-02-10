@@ -148,13 +148,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📸 Screenshots
 
 ### Security Scan
-![Security Scan](![image](https://github.com/user-attachments/assets/11ded0a4-b444-4adb-860e-1063efb00295)
-)
+![image](https://github.com/user-attachments/assets/f110cc41-271b-4e5f-ad1b-4ffa6f93d06b)
+
 
 ### Compliance Report
-![Compliance Report](![image](https://github.com/user-attachments/assets/0bc61db4-0b6e-48c8-b652-ff5f2dec75f8)
-)
-)
+
+![image](https://github.com/user-attachments/assets/7b350e1c-31d6-485b-abec-cb30d0209ad6)
 
 ### AI Analysis - Exported to PDF
 ![AI Analysis](!![image](https://github.com/user-attachments/assets/1d7fa010-6a50-4cec-bed3-8fe0216dd7f0)
