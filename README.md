@@ -1,6 +1,7 @@
 # Supabase Security Compliance Scanner
 
-![Supabase Security Scanner](./public/preview.png)
+![Supabase Security Scanner](https://github.com/user-attachments/assets/b816ef4d-f35a-4e9f-a468-0057888eb485)
+
 
 A modern web application that helps you ensure your Supabase projects follow security best practices and compliance standards. Built with Next.js and powered by AI analysis.
 
@@ -143,23 +144,22 @@ To perform a security scan, you'll need:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
-
-- [Supabase](https://supabase.io/) for the amazing platform
-- [Groq](https://groq.com/) for AI capabilities
-- [Bootstrap](https://getbootstrap.com/) for UI components
-- [Font Awesome](https://fontawesome.com/) for icons
 
 ## 📸 Screenshots
 
 ### Security Scan
-![Security Scan](./public/scan.png)
+![Security Scan](![image](https://github.com/user-attachments/assets/11ded0a4-b444-4adb-860e-1063efb00295)
+)
 
 ### Compliance Report
-![Compliance Report](./public/report.png)
+![Compliance Report](![image](https://github.com/user-attachments/assets/0bc61db4-0b6e-48c8-b652-ff5f2dec75f8)
+)
+)
 
-### AI Analysis
-![AI Analysis](./public/analysis.png)
+### AI Analysis - Exported to PDF
+![AI Analysis](!![image](https://github.com/user-attachments/assets/1d7fa010-6a50-4cec-bed3-8fe0216dd7f0)
+]()
+)
 
 ---
-Built with ❤️ for the Supabase community 
+Built with ❤️
